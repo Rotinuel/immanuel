@@ -34,9 +34,7 @@ export default function MobileApps() {
               key={app.id}
               href={app.url}
               ref={(el) => { if (el && !refs.current.includes(el)) refs.current.push(el); }}
-              className="reveal group relative flex flex-col gap-4 p-7 bg-sky-50/60 border border-sky-100
-                rounded-2xl no-underline text-inherit overflow-hidden
-                transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-200/25 hover:border-sky-300"
+              className="reveal group relative flex flex-col gap-4 p-7 bg-sky-50/60 border border-sky-100 rounded-2xl no-underline text-inherit overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-200/25 hover:border-sky-300"
               style={{
                 transitionDelay: `${i * 70}ms`,
                 opacity: 0,

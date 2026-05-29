@@ -35,9 +35,7 @@ export default function Websites() {
             target="_blank"
             rel="noopener noreferrer"
             ref={(el) => { if (el && !refs.current.includes(el)) refs.current.push(el); }}
-            className="reveal group flex flex-col bg-white border border-sky-100 rounded-2xl overflow-hidden
-              no-underline text-inherit transition-all duration-300
-              hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-sky-200/30 hover:border-sky-300"
+            className="reveal group flex flex-col bg-white border border-sky-100 rounded-2xl overflow-hidden no-underline text-inherit transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-sky-200/30 hover:border-sky-300"
             style={{
               transitionDelay: `${i * 60}ms`,
               opacity: 0,
@@ -68,8 +66,7 @@ export default function Websites() {
                     </span>
                   ))}
                 </div>
-                <div className="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center text-white text-sm
-                  flex-shrink-0 transition-all group-hover:bg-sky-500 group-hover:rotate-45">
+                <div className="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center text-white text-sm flex-shrink-0 transition-all group-hover:bg-sky-500 group-hover:rotate-45">
                   →
                 </div>
               </div>
