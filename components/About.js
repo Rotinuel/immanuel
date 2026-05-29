@@ -3,8 +3,8 @@ import { useEffect, useRef } from "react";
 
 const skills = [
   "Next.js 16", "React", "Node.js", "Supabase", "PostgreSQL",
-  "Tailwind CSS", "React Native", "Paystack", "Bun", "REST APIs",
-  "Git", "Docker", "SendGrid", "Termii",
+  "Tailwind CSS", "React Native", "Flutter", "Paystack", "Bun", "REST APIs",
+  "Git", "Docker", "SendGrid", "Termii", "Mongodb", ""
 ];
 
 export default function About() {
@@ -36,7 +36,7 @@ export default function About() {
             <span className="relative z-10 text-9xl drop-shadow-lg">👨‍💻</span>
           </div>
           <div className="absolute -bottom-4 -right-4 bg-white border-2 border-sky-200 rounded-2xl p-4 shadow-xl shadow-sky-200/30">
-            <div className="text-3xl font-black text-sky-500 leading-none">3+</div>
+            <div className="text-3xl font-black text-sky-500 leading-none">6+</div>
             <div className="text-xs font-semibold text-slate-400 tracking-wide mt-1">Years building</div>
           </div>
         </div>
