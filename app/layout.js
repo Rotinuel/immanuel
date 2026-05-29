@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Immanuel Okhuarobo PortFolio",
-  description:,
+  description: "my bio"
 };
 
 export default function RootLayout({ children }) {
