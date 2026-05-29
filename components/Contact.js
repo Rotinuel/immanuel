@@ -11,13 +11,13 @@ const contactLinks = [
     external: false,
   },
   {
-    href: "https://wa.me/2348012345678",
+    href: "https://wa.me/2348134284100",
     icon: "💬",
     iconBg: "#DCFCE7",
     label: "WhatsApp",
-    value: "+234 801 234 5678",
+    value: "+234 813 428 4100",
     external: true,
-  }
+  },
   {
     href: "https://github.com/yourusername",
     iconBg: "#f6f8fa",
