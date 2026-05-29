@@ -22,9 +22,7 @@ export default function Nav() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5
-          backdrop-blur-xl bg-sky-50/80 border-b border-sky-200/30
-          transition-shadow duration-300 ${scrolled ? "shadow-sky-200/40 shadow-md" : ""}`}
+        className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5 backdrop-blur-xl bg-sky-50/80 border-b border-sky-200/30 transition-shadow duration-300 ${scrolled ? "shadow-sky-200/40 shadow-md" : ""}`}
       >
         <a
           href="#home"

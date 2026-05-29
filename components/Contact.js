@@ -3,13 +3,21 @@ import { useEffect, useRef } from "react";
 
 const contactLinks = [
   {
-    href: "mailto:you@email.com",
+    href: "mailto:immmanuel@okhuas.com",
     icon: "✉️",
     iconBg: "#E0F2FE",
     label: "Email",
     value: "you@email.com",
     external: false,
   },
+  {
+    href: "https://wa.me/2348012345678",
+    icon: "💬",
+    iconBg: "#DCFCE7",
+    label: "WhatsApp",
+    value: "+234 801 234 5678",
+    external: true,
+  }
   {
     href: "https://github.com/yourusername",
     iconBg: "#f6f8fa",

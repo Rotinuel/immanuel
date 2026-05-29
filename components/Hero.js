@@ -49,9 +49,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4 mb-16">
           <a
             href="#websites"
-            className="inline-flex items-center gap-2 bg-slate-900 text-white px-8 py-3.5 rounded-full text-sm font-bold tracking-wide
-              hover:bg-sky-500 border-2 border-slate-900 hover:border-sky-500
-              transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-sky-300/30 no-underline"
+            className="inline-flex items-center gap-2 bg-slate-900 text-white px-8 py-3.5 rounded-full text-sm font-bold tracking-wide hover:bg-sky-500 border-2 border-slate-900 hover:border-sky-500 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-sky-300/30 no-underline"
           >
             View my work
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -61,9 +59,7 @@ export default function Hero() {
           <Link
             href="/resume.pdf"
             download
-            className="inline-flex items-center gap-2 bg-transparent text-slate-800 px-8 py-3.5 rounded-full text-sm font-bold tracking-wide
-              border-2 border-sky-300/60 hover:bg-sky-100/50 hover:border-sky-500
-              transition-all hover:-translate-y-0.5 no-underline"
+            className="inline-flex items-center gap-2 bg-transparent text-slate-800 px-8 py-3.5 rounded-full text-sm font-bold tracking-wide border-2 border-sky-300/60 hover:bg-sky-100/50 hover:border-sky-500 transition-all hover:-translate-y-0.5 no-underline"
           >
             Download CV
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -98,9 +94,7 @@ export default function Hero() {
               href={s.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 font-mono text-xs text-slate-500 hover:text-sky-500
-                px-4 py-2 border border-sky-200/50 hover:border-sky-400 rounded-lg bg-white/60
-                transition-all hover:-translate-y-0.5 no-underline"
+              className="inline-flex items-center gap-2 font-mono text-xs text-slate-500 hover:text-sky-500 px-4 py-2 border border-sky-200/50 hover:border-sky-400 rounded-lg bg-white/60 transition-all hover:-translate-y-0.5 no-underline"
             >
               {s.icon}
               {s.label}
