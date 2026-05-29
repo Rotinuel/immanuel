@@ -96,15 +96,13 @@ export default function Contact() {
           style={{ opacity: 0, transform: "translateY(28px)", transition: "opacity .6s .1s, transform .6s .1s" }}
         >
           {contactLinks.map((l) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               target={l.external ? "_blank" : undefined}
               rel={l.external ? "noopener noreferrer" : undefined}
               download={l.download ? true : undefined}
-              className="flex items-center gap-4 p-5 bg-white border border-sky-100 rounded-2xl
-                no-underline text-slate-900 font-semibold
-                transition-all hover:border-sky-400 hover:bg-sky-50/60 hover:translate-x-1"
+              className="flex items-center gap-4 p-5 bg-white border border-sky-100 rounded-2xl no-underline text-slate-900 font-semibold transition-all hover:border-sky-400 hover:bg-sky-50/60 hover:translate-x-1"
             >
               <div
                 className="w-11 h-11 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
@@ -116,7 +114,7 @@ export default function Contact() {
                 <span className="font-mono text-[0.7rem] uppercase tracking-widest text-slate-400">{l.label}</span>
                 <span className="text-sm font-bold text-slate-800">{l.value}</span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
