@@ -61,7 +61,7 @@ export default function About() {
             with hands-on experience deploying full-scale platforms from scratch.
           </p>
           <p className="text-slate-500 leading-relaxed mb-4">
-            Most recently I&apos;ve been working on <strong className="text-slate-700">ODDC 2025</strong> — a multi-portal
+            Most recently I&apos;ve been working on <strong className="text-slate-700">ODDC 2026</strong> — a multi-portal
             event management platform for a large Nigerian December carnival, handling everything from
             real-time ticketing (Paystack) to vendor onboarding and admin dashboards.
           </p>
