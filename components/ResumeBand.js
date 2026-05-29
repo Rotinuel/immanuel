@@ -1,3 +1,5 @@
+"use client"
+
 export default function ResumeBand() {
   return (
     <div className="relative bg-slate-900 py-20 px-8 text-center overflow-hidden">

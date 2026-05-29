@@ -29,7 +29,7 @@ export default function Nav() {
           href="#home"
           className="font-serif italic text-2xl text-sky-500 tracking-tight no-underline"
         >
-          immanuel.
+          Okhuas.
         </a>
 
         {/* Desktop links */}
