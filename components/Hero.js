@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section
@@ -56,7 +58,7 @@ export default function Hero() {
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
-          <a
+          <Link
             href="/resume.pdf"
             download
             className="inline-flex items-center gap-2 bg-transparent text-slate-800 px-8 py-3.5 rounded-full text-sm font-bold tracking-wide
@@ -67,7 +69,7 @@ export default function Hero() {
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
             </svg>
-          </a>
+          </Link>
         </div>
 
         <div className="flex flex-wrap gap-3">

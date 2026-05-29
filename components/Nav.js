@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -36,15 +37,11 @@ export default function Nav() {
         <ul className="hidden md:flex gap-8 list-none">
           {links.map((l) => (
             <li key={l.href}>
-              <a
+              <Link
                 href={l.href}
-                className="text-sm font-medium text-slate-500 hover:text-sky-500
-                  uppercase tracking-widest no-underline
-                  relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1.5px]
-                  after:w-0 after:bg-sky-500 after:transition-all hover:after:w-full"
-              >
+                className="text-sm font-medium text-slate-500 hover:text-sky-500 uppercase tracking-widest no-underline relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1.5px] after:w-0 after:bg-sky-500 after:transition-all hover:after:w-full">
                 {l.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -64,14 +61,14 @@ export default function Nav() {
       {mobileOpen && (
         <div className="fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 bg-sky-50/97 backdrop-blur-xl">
           {links.map((l) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               onClick={() => setMobileOpen(false)}
               className="text-4xl font-black text-slate-800 hover:text-sky-500 no-underline tracking-tight"
             >
               {l.label}
-            </a>
+            </Link>
           ))}
         </div>
       )}

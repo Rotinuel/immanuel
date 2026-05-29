@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link";
+
 export default function ResumeBand() {
   return (
     <div className="relative bg-slate-900 py-20 px-8 text-center overflow-hidden">
@@ -17,7 +19,7 @@ export default function ResumeBand() {
         <p className="text-white/50 mb-10 text-base">
           Download my CV to see my full work history, education, and skills breakdown.
         </p>
-        <a
+        <Link
           href="/resume.pdf"
           download
           className="inline-flex items-center gap-3 bg-sky-400 hover:bg-sky-300 text-slate-900
@@ -28,7 +30,7 @@ export default function ResumeBand() {
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
           </svg>
           Download Resume (PDF)
-        </a>
+        </Link>
       </div>
       <style jsx global>{`
         .font-serif { font-family: 'Instrument Serif', serif; }
